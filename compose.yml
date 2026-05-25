@@ -13,7 +13,7 @@ services:
   application:
     image: shaikmustafa/automation:app
     ports:
-      - "1111:8080"
+      - "2222:8080"
     deploy:
       replicas: 3
     depends_on:
